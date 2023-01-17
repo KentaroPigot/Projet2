@@ -304,10 +304,6 @@ section {
   gap: 2.5rem;
 }
 
-.section-2:first-of-type(h2) {
-  font-size: var(--fs-900);
-}
-
 .hebergements {
   display: flex;
   gap: 2rem;
@@ -488,14 +484,13 @@ section {
 .activite {
   flex: 1;
   box-shadow: var(--box-shadow);
-  /* flex: 1 0 30%; */
   background-color: #fff;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   border-radius: 20px;
   font-size: 1rem;
-  aspect-ratio: 0.7;
+  aspect-ratio: 3/4;
 }
 
 .activite h3 {
@@ -514,7 +509,7 @@ section {
   }
 
   .activite {
-    aspect-ratio: 1.5;
+    aspect-ratio: 3/2;
   }
 }
 
