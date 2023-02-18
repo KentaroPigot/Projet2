@@ -380,7 +380,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 9px 0 9px 0.9rem;
+  padding: 9px 0 9px 0.5rem;
 }
 
 .hebergement-infos h3 {
@@ -502,6 +502,10 @@ section {
   }
   .hebergement.pop {
     max-height: 144px;
+  }
+
+  .hebergement-infos.pop {
+    height: 135px;
   }
 
   .hebergement.pop .clickable-card img {
