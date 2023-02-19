@@ -173,10 +173,6 @@ section {
   border-bottom: none;
 }
 
-.header-container nav {
-  min-width: none;
-}
-
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
@@ -190,7 +186,7 @@ section {
   }
   .header-container ul li {
     flex: 1;
-    padding-block: 19px;
+    padding: 19px 0;
     border: none;
 
     border-bottom: solid 3px var(--clr-neutral-300);
